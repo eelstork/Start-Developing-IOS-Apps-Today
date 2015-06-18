@@ -15,6 +15,7 @@
 		A94713B41B2DDC1700DA5E94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94713B31B2DDC1700DA5E94 /* Images.xcassets */; };
 		A94713B71B2DDC1700DA5E94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94713B51B2DDC1700DA5E94 /* LaunchScreen.xib */; };
 		A94713C31B2DDC1700DA5E94 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94713C21B2DDC1700DA5E94 /* ToDoListTests.swift */; };
+		A9836C4D1B2E7B4100A9063B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9836C4C1B2E7B4100A9063B /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A94713BC1B2DDC1700DA5E94 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94713C11B2DDC1700DA5E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A94713C21B2DDC1700DA5E94 /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		A9836C4C1B2E7B4100A9063B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				A94713AC1B2DDC1700DA5E94 /* AppDelegate.swift */,
 				A94713AE1B2DDC1700DA5E94 /* ViewController.swift */,
+				A9836C4C1B2E7B4100A9063B /* ToDoItem.swift */,
 				A9100BDF1B2E5FE4006C13AB /* AddToDoItemViewController.swift */,
 				A9100BE11B2E619D006C13AB /* TodoListTableViewController.swift */,
 				A94713B01B2DDC1700DA5E94 /* Main.storyboard */,
@@ -220,6 +223,7 @@
 			files = (
 				A9100BE21B2E619D006C13AB /* TodoListTableViewController.swift in Sources */,
 				A9100BE01B2E5FE4006C13AB /* AddToDoItemViewController.swift in Sources */,
+				A9836C4D1B2E7B4100A9063B /* ToDoItem.swift in Sources */,
 				A94713AF1B2DDC1700DA5E94 /* ViewController.swift in Sources */,
 				A94713AD1B2DDC1700DA5E94 /* AppDelegate.swift in Sources */,
 			);
