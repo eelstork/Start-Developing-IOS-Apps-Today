@@ -19,19 +19,7 @@ class TodoListTableViewController:UITableViewController{
 	override func viewDidLoad() {
 
 		super.viewDidLoad()
-		loadInitialData()
-
-	}
-
-	func loadInitialData(){
-
-		let item1 = ToDoItem(name: "Buy milk" )
-		let item2 = ToDoItem(name: "Buy eggs" )
-		let item3 = ToDoItem(name: "Read a book" )
-
-		todoItems.append(item1)
-		todoItems.append(item2)
-		todoItems.append(item3)
+		todoItems = CreateSampleToDoList();
 
 	}
 
