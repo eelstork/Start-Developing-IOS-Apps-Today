@@ -101,10 +101,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A92F04E41B33D02C00581227 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A9530A8D1B33A2F900DAF81B /* Main.storyboard */,
+				A9530A8B1B33A2F900DAF81B /* Images.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A92F04E51B33D0EC00581227 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A92F04E01B33B6D600581227 /* TodoList.swift */,
+				A9836C4C1B2E7B4100A9063B /* ToDoItem.swift */,
+			);
+			name = model;
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
 		A947139E1B2DDC1600DA5E94 = {
 			isa = PBXGroup;
 			children = (
-				A94713A91B2DDC1700DA5E94 /* source */,
+				A94713A91B2DDC1700DA5E94 /* apps */,
+				A92F04E51B33D0EC00581227 /* model */,
 				A94713BF1B2DDC1700DA5E94 /* tests (iOS) */,
 				A9530A971B33A2F900DAF81B /* tests (OS-X) */,
 				A94713A81B2DDC1700DA5E94 /* Products */,
@@ -122,15 +142,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A94713A91B2DDC1700DA5E94 /* source */ = {
+		A94713A91B2DDC1700DA5E94 /* apps */ = {
 			isa = PBXGroup;
 			children = (
 				A9530A841B33A2F900DAF81B /* OS-X */,
 				A9530A7D1B33A19A00DAF81B /* iOS */,
-				A9836C4C1B2E7B4100A9063B /* ToDoItem.swift */,
-				A92F04E01B33B6D600581227 /* TodoList.swift */,
 			);
-			name = source;
+			name = apps;
 			path = ToDoList;
 			sourceTree = "<group>";
 		};
@@ -178,10 +196,9 @@
 		A9530A841B33A2F900DAF81B /* OS-X */ = {
 			isa = PBXGroup;
 			children = (
+				A92F04E41B33D02C00581227 /* UI */,
 				A9530A871B33A2F900DAF81B /* AppDelegate.swift */,
 				A9530A891B33A2F900DAF81B /* ViewController.swift */,
-				A9530A8B1B33A2F900DAF81B /* Images.xcassets */,
-				A9530A8D1B33A2F900DAF81B /* Main.storyboard */,
 				A9530A851B33A2F900DAF81B /* Supporting Files */,
 			);
 			name = "OS-X";
